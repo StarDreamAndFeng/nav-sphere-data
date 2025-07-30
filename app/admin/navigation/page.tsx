@@ -269,7 +269,7 @@ export default function NavigationPage() {
               <Inbox className="h-10 w-10 text-muted-foreground" />
               <h3 className="mt-4 text-lg font-semibold">暂无分类</h3>
               <p className="mb-4 mt-2 text-sm text-muted-foreground">
-                {searchQuery ? "没有找到匹配的分类。" : "还没有添加任何分类，点击上方的添加按钮开���创建。"}
+                {searchQuery ? "没有找到匹配的分类。" : "还没有添加任何分类，点击上方的添加按钮开始创建。"}
               </p>
               {searchQuery && (
                 <Button
